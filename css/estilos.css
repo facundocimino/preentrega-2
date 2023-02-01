@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/foto-gratis/pizza-jamon-champinones-aceitunas_2829-10324.jpg?w=2000');
+}
+.texprincipal{
+    color: blueviolet;
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
+.lista{
+    list-style: armenian;
+    margin: 50px;
+}
+
+.titulo{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.titulo2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+    line-height: 1.5;   
+    /* es para separacion de renglones de parrafo */
+    text-decoration: line-through;
+}
+
+.letra{
+    font-family: 'Rubik Bubbles', cursive;
+}

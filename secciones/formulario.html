@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#" method="GET"> 
+        <!-- POST si usamos contraseñas, quye no aparezca en el URL -->
+        <input type="text" placeholder="Nombre completo" name="Nombre">
+        <br><br>
+        <input type="number" placeholder="Edad" name="Edad">
+        <br><br>
+        <input type="password" placeholder="Contraseña" name="password">
+        <br><br>
+        <input type="email" placeholder="email" name="mail">
+        <br><br>
+        <textarea name="" id="" cols="30" rows="10" name="">
+            Quiero mas informacion sobre...
+        </textarea>
+        <!-- RADIO BUTTON -->
+        <label for="">
+            <span>verdadero</span>
+            <input type="radio" value="verdadero" name="radio">
+            <span>falso</span>
+            <input type="radio" value="falso" name="radio">
+        </label>
+        <br><br>
+
+        <!-- Menu desplegable -->
+        <select name="Pais">
+            <option value="Selec">Seleccionar</option>
+            <option value="Arg">Argentina</option>
+            <option value="Mex">Mexico</option>
+            <option value="Chi">Chile</option>
+        </select>
+
+        <!-- Botones -->
+        <input type="submit" value="enviar">
+        <input type="reset">
+
+
+    </form>
+</body>
+</html>
